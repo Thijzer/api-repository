@@ -1,0 +1,41 @@
+{
+    "php": {
+        "version": "7.3"
+    },
+    "psr/cache": {
+        "version": "1.0.1"
+    },
+    "psr/container": {
+        "version": "1.0.0"
+    },
+    "psr/log": {
+        "version": "1.1.3"
+    },
+    "symfony/cache": {
+        "version": "v5.1.2"
+    },
+    "symfony/cache-contracts": {
+        "version": "v2.1.2"
+    },
+    "symfony/flex": {
+        "version": "1.0",
+        "recipe": {
+            "repo": "github.com/symfony/recipes",
+            "branch": "master",
+            "version": "1.0",
+            "ref": "c0eeb50665f0f77226616b6038a9b06c03752d8e"
+        },
+        "files": [
+            ".env"
+        ]
+    },
+    "symfony/polyfill-php80": {
+        "version": "v1.17.1"
+    },
+    "symfony/service-contracts": {
+        "version": "v2.1.2"
+    },
+    "symfony/var-exporter": {
+        "version": "v5.1.2"
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "minimum-stability": "stable",
+    "require": {
+        "guzzlehttp/psr7": "^1.6",
+        "akeneo/api-php-client-ee": "^6.0",
+        "symfony/flex": "^1.8",
+        "symfony/cache": "^5.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "ApiRepo\\": "src/"
+        }
+    }
+}

@@ -1,0 +1,11 @@
+#!/bin/sh
+
+CONTAINER_NAME="thijs/php:alpine-php-7.3"
+
+docker run \
+    -u $UID \
+    -e COMPOSER_HOME=/var/www/.composer \
+    -v ${HOST_COMPOSER_HOME:-~/.composer}:/var/www/.composer \
+    -v $(pwd):/app \
+    -w /app \
+    --rm thijs/php:alpine-php-7.3 php "$@"
